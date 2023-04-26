@@ -1,0 +1,44 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+
+div {
+    padding: 10px;
+}
+
+footer {
+    font-style: italic;
+    color: white
+}
+
+#imagem {
+    border-radius: 10px;
+}
